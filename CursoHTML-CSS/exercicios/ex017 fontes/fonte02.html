@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes com Google Fonts</title>
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url('caminho da fonte.otf') format ('opentype'), url('caminho da fonte.ttf') format ('truetype');
+            font-weight: normal;
+            font-style: normal;
+        
+        /*
+        Tipos de format ()
+        - opentype (otf)
+        - truetype (ttf)
+        */
+        }
+        
+        @import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Licorice&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+        body{
+            font-family: 'love', 'Work Sans', sans-serif;
+            /* 
+            Medidas absolutas
+            cm, mm, on, px, pt, pc
+            
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            /* lighter normal bold bolder*/
+
+
+            
+        }
+
+        h1 {
+           /*shorthand font 
+           style - weight - size - family
+           */
+           font: italic bolder 3em 'Licorice', cursive;
+        }
+
+        h2 {
+
+            font: italic bolder 2em 'Licorice', cursive;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eligendi molestias velit dolor illo saepe distinctio quisquam earum dolorem possimus, tenetur in ipsam hic ratione iure vero omnis, quod ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi officiis tempora vitae fugiat quam similique in optio pariatur repellendus culpa, possimus maiores assumenda aliquam ea sunt. Cumque aut illum numquam?</p>
+
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates tempore vel dolorem modi aut placeat corporis, nobis autem consequatur, itaque possimus suscipit? Enim omnis quos, nemo fugiat tenetur sunt labore?</p>
+    
+</body>
+</html>
