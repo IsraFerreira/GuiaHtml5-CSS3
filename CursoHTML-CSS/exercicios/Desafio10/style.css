@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "idroid";
+    src: url('fontes/idroid.otf') format ('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+
+}
+
+body{
+margin: 0px;
+background-color: #d3dda8;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #3ad07e, #1c623a);
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0px 15px 0px 15px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #35b86d;
+}
+
+p {
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 35px;
+}
+
+h3{
+    font-family: "idroid", Arial, sans-serif;
+    padding-top: 20px;
+    margin-left: 10px;
+
+}
+
+h4{
+    font-family: "idroid", Arial, sans-serif;
+    background-image: linear-gradient(to right, #b4f0cf, #ffffff);
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+
+}
+
+main{
+    background-color: white;
+    margin: 0px 150px 0px 150px;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+div#video{
+
+    border: 9px solid rgb(41, 102, 51);
+    text-align: center;
+}
+
+div#imagem{
+    text-align: center;
+}
+
+div#extra{
+    background-color: #afdfc4;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+
+
+div#esquerda{
+    width: 50%;
+    min-width: 250px;
+    vertical-align: top;
+    float: left;
+
+}
+
+div#direita{
+    width: 50%;
+    min-width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+p#extra{
+    font-weight: bold;
+    background-color: #3ed482;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+
+
+footer{
+    background-color: #1a5c38;
+    color: white;
+    text-align: center;
+}
+
+footer > p {
+    margin: 0px 0px 0px 0px;
+}
