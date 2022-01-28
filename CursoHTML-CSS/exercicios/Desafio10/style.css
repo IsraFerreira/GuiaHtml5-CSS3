@@ -54,7 +54,7 @@ nav{
 main{
     background-color: white;
 
-    min-width: 320px;
+    min-width: 500px;
     max-width: 800px;
     margin: auto;
     
@@ -67,6 +67,10 @@ main h1 {
 
 main h2{
     font-family: var(--fonte-android);
+}
+
+img {
+    width: 100%;
 }
 
 
