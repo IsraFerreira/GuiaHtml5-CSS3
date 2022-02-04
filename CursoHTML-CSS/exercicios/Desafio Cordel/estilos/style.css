@@ -62,30 +62,39 @@ section {
 section.normal {
     background-color: white;
     color: black;
-    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
 }
 
 section.imagem{
     background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
+    background-size: cover;
+    background-attachment: fixed;
     
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 .imagem > p{
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.514);
     display: inline-block;
     padding: 5px;
     color: white;
+    text-shadow: 1px 1px 0px black;
 }
 
 #imagem1{
-    background: rgba(0, 0, 0, 0.315) url('../imagens/background001.JPG') center center no-repeat fixed;  
-    background-size: cover; 
+    background-image: url('../imagens/background001.JPG');
+    background-position: right center;
+ 
 }
 
 #imagem2{
-    background: rgba(0, 0, 0, 0.315) url('../imagens/background002.JPG') center center no-repeat fixed;
-    background-size: cover; 
+    background-image: url('../imagens/background002.JPG');
+    background-position: right center;
+
 }
 
 
