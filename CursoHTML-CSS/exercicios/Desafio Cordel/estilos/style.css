@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte3);
+}
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-size: 4em;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
+}
+
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    
+}
+
+.imagem > p{
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 400px;
+    color: white;
+}
+
+#imagem1{
+    background: rgba(0, 0, 0, 0.315) url('../imagens/background001.JPG') center center no-repeat fixed;  
+    background-size: cover; 
+}
+
+#imagem2{
+    background: rgba(0, 0, 0, 0.315) url('../imagens/background002.JPG') center center no-repeat fixed;
+    background-size: cover; 
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
